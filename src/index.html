@@ -5,11 +5,42 @@
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
   </head>
   <body>
-    <img src="assets/images/anubis.jpg" width="500px" alt="anubis" />
+    <header class="header">
+      <div>Total Points: <span>0</span></div>
+    </header>
+    <main id="cards-container">
+      <div class="card" data-number="1">
+        <div class="card__front">
+          <img src="assets/images/1.png" alt="" />
+        </div>
+        <div class="card__back"></div>
+      </div>
+      <div class="card" data-number="6">
+        <div class="card__front">
+          <img src="assets/images/6.png" alt="" />
+        </div>
+        <div class="card__back"></div>
+      </div>
+      <div class="card" data-number="1">
+        <div class="card__front">
+          <img src="assets/images/1.png" alt="" />
+        </div>
+        <div class="card__back"></div>
+      </div>
+      <div class="card" data-number="6">
+        <div class="card__front">
+          <img src="assets/images/6.png" alt="" />
+        </div>
+        <div class="card__back"></div>
+      </div>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
