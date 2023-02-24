@@ -35,7 +35,7 @@ const createContainer = () => {
     newElement.append(cardFront);
 
     const cardImage = document.createElement('img');
-    cardImage.src = `assets/images/${allCards[index]}.png`;
+    cardImage.src = `./assets/images/${allCards[index]}.png`;
     cardFront.append(cardImage);
 
     const cardBack = document.createElement('div');
