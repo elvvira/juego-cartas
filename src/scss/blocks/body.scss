@@ -1,7 +1,10 @@
 html {
 }
 body {
-    background-color: var( --blue);
-    font-family: 'JetBrains Mono', monospace;
+  background-color: var(--blue);
+  font-family: 'JetBrains Mono', monospace;
+}
 
+.containerFake {
+  display: none;
 }
